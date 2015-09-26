@@ -18,7 +18,7 @@
             android:layout_marginLeft="@dimen/ten_dip"
             android:layout_marginRight="@dimen/ten_dip"
             android:gravity="left|center_vertical"
-            android:hint="Ad Title (min. 15 chars)"
+            android:hint="Ad Title (max 15 chars)"
             android:textColorHint="#999999"
             android:imeOptions="actionNext"
             android:layout_marginBottom="@dimen/fifteen_dip"
@@ -26,6 +26,7 @@
             android:paddingTop="@dimen/twenty_dip"
             android:singleLine="true"
             android:ellipsize="end"
+            android:maxLength="15"
 
             android:textColor="#757575"
             android:textSize="@dimen/fourteen_sp"
@@ -72,7 +73,7 @@
                     android:id="@+id/description"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:editable="false"
+                    android:editable="true"
                     android:gravity="left|center_vertical"
                     android:hint="Description(min 20 chars)"
                     android:textColorHint="#999999"
@@ -81,6 +82,7 @@
                     android:paddingLeft="@dimen/eight_dip"
                     android:paddingTop="@dimen/fifteen_dip"
                     android:singleLine="true"
+                    android:maxLength="20"
                     android:ellipsize="end"
 
                     android:textColor="#757575"
@@ -105,6 +107,7 @@
                     android:paddingBottom="@dimen/fifteen_dip"
                     android:paddingLeft="@dimen/eight_dip"
                     android:paddingTop="@dimen/fifteen_dip"
+                    android:maxLength="10"
                     android:textColor="#757575"
                     android:textSize="@dimen/fourteen_sp"
                     />
@@ -120,7 +123,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
 
-                    android:editable="false"
+                    android:editable="true"
                     android:gravity="left|center_vertical"
                     android:hint="Name"
                     android:textColorHint="#999999"

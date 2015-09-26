@@ -117,6 +117,8 @@ switch (v.getId())
 
     case R.id.submit_layout:
 
+
+
         Toast.makeText(getActivity(),"Thanks for submitting",Toast.LENGTH_SHORT).show();
         break;
 }
