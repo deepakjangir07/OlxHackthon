@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twenty_dip"
+        android:orientation="vertical" >
+
+        <AutoCompleteTextView
+            android:id="@+id/keyword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_dip"
+            android:layout_marginRight="@dimen/ten_dip"
+            android:gravity="left|center_vertical"
+            android:hint="Ad Title (min. 15 chars)"
+            android:textColorHint="#999999"
+            android:imeOptions="actionNext"
+            android:layout_marginBottom="@dimen/fifteen_dip"
+            android:paddingLeft="@dimen/twelve_dip"
+            android:paddingTop="@dimen/twenty_dip"
+            android:singleLine="true"
+            android:ellipsize="end"
+
+            android:textColor="#757575"
+            android:textSize="@dimen/fourteen_sp"
+           />
+
+        <EditText
+            android:id="@+id/category"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_dip"
+            android:layout_marginRight="@dimen/ten_dip"
+            android:gravity="left|center_vertical"
+            android:hint="Choose Category"
+            android:textColorHint="#999999"
+            android:imeOptions="actionNext"
+            android:paddingBottom="@dimen/twenty_dip"
+            android:paddingLeft="@dimen/twelve_dip"
+            android:singleLine="true"
+            android:ellipsize="end"
+
+            android:textColor="#757575"
+            android:textSize="@dimen/fourteen_sp"
+            />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/adv_search_fields"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_dip"
+            android:layout_marginRight="@dimen/ten_dip"
+            android:layout_marginTop="@dimen/five_dip"
+            android:orientation="vertical"
+            android:visibility="visible" >
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:gravity="left|center_vertical"
+                    android:hint="Description(min 20 chars)"
+                    android:textColorHint="#999999"
+                    android:imeOptions="actionNext"
+                    android:paddingBottom="@dimen/fifteen_dip"
+                    android:paddingLeft="@dimen/eight_dip"
+                    android:paddingTop="@dimen/fifteen_dip"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+
+                    android:textColor="#757575"
+                    android:textSize="@dimen/fourteen_sp"
+                  />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/location"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:gravity="left|center_vertical"
+                    android:hint="Location"
+                    android:textColorHint="#999999"
+                    android:imeOptions="actionNext"
+                    android:lines="1"
+                    android:paddingBottom="@dimen/fifteen_dip"
+                    android:paddingLeft="@dimen/eight_dip"
+                    android:paddingTop="@dimen/fifteen_dip"
+                    android:textColor="#757575"
+                    android:textSize="@dimen/fourteen_sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five_dip" >
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:editable="false"
+                    android:gravity="left|center_vertical"
+                    android:hint="Name"
+                    android:textColorHint="#999999"
+                    android:imeOptions="actionNext"
+                    android:lines="1"
+                    android:paddingBottom="@dimen/fifteen_dip"
+                    android:paddingLeft="@dimen/eight_dip"
+                    android:paddingTop="@dimen/fifteen_dip"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+
+                    android:focusableInTouchMode="true"
+                    android:textColor="#757575"
+                    android:textSize="@dimen/fourteen_sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five_dip" >
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:editable="false"
+                    android:textColorHint="#999999"
+                    android:gravity="left|center_vertical"
+                    android:hint="Email Address"
+                    android:imeOptions="actionNext"
+                    android:paddingBottom="@dimen/fifteen_dip"
+                    android:paddingLeft="@dimen/eight_dip"
+                    android:paddingTop="@dimen/fifteen_dip"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:inputType="textEmailAddress"
+
+                    android:textColor="#757575"
+                    android:textSize="@dimen/fourteen_sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five_dip" >
+
+                <EditText
+                    android:id="@+id/price"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:editable="false"
+                    android:textColorHint="#999999"
+                    android:gravity="left|center_vertical"
+                    android:hint="Price"
+                    android:imeOptions="actionNext"
+                    android:paddingBottom="@dimen/fifteen_dip"
+                    android:paddingLeft="@dimen/eight_dip"
+                    android:paddingTop="@dimen/fifteen_dip"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+
+                    android:textColor="#757575"
+                    android:textSize="@dimen/fourteen_sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five_dip" >
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:editable="false"
+                    android:textColorHint="#999999"
+                    android:gravity="left|center_vertical"
+                    android:hint="Mobile Number"
+                    android:imeOptions="actionNext"
+                    android:paddingBottom="@dimen/fifteen_dip"
+                    android:paddingLeft="@dimen/eight_dip"
+                    android:paddingTop="@dimen/fifteen_dip"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:inputType="number"
+
+                    android:textColor="#757575"
+                    android:textSize="@dimen/fourteen_sp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_dip"
+            android:layout_marginRight="@dimen/ten_dip"
+            android:layout_marginTop="@dimen/ten_dip"
+            android:gravity="center"
+
+            android:paddingBottom="@dimen/twelve_dip"
+            android:paddingTop="@dimen/twelve_dip"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="#20343c"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="0"
+                android:singleLine="true"
+                android:ellipsize="end"
+
+                android:textColor="#fff"
+                android:textSize="@dimen/sixteen_sp"
+                android:background="@android:drawable/ic_menu_camera"
+                android:textStyle="bold"
+                android:id="@+id/camera"/>
+
+            <Gallery
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gallery"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/ten_dip"
+            android:gravity="center"
+            android:background="#69CCAA"
+            android:orientation="vertical"
+            android:id="@+id/submit_layout">
+
+            <LinearLayout
+                android:id="@+id/simple_search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/seven_dip"
+                android:paddingLeft="@dimen/eight_dip"
+                android:paddingRight="@dimen/ten_dip"
+                android:paddingTop="@dimen/seven_dip"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/three_dip"
+                    android:textColor="#666666"
+                    android:textSize="@dimen/twenty_sp"
+
+                    android:text="SUBMIT"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

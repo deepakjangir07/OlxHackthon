@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layout height, width -->
+    <dimen name="drop_down_devider_height">3dip</dimen>
+    <dimen name="drop_down_border_width">2dp</dimen>
+    <dimen name="left_drawer_width">300dp</dimen>
+    <dimen name="rght_drawer_width">300dp</dimen>
+    <dimen name="tabs_height">39dp</dimen>
+    <dimen name="tabs_width">106dp</dimen>
+    <dimen name="applied_jobs_grid_row_width">150dp</dimen>
+    <dimen name="applied_jobs_grid_row_height">135dp</dimen>
+    <dimen name="applied_jobs_grid_row_height2">85dp</dimen>
+    <dimen name="applied_jobs_grid_row_height3">50dp</dimen>
+    <dimen name="applied_jobs_btn_height">32dp</dimen>
+    <dimen name="apply_job_width">75dp</dimen>
+    <dimen name="apply_job_height">35dp</dimen>
+    <dimen name="carrer_plus_page_divider_height">1dp</dimen>
+    <dimen name="leave_details_height">35dp</dimen>
+    <dimen name="my_photo_height">89dp</dimen>
+    <dimen name="my_photo_width">110dp</dimen>
+
+    <!-- Text Views Size -->
+    <dimen name="leave_details_tv_size">12sp</dimen>
+    <dimen name="app_jobs_title_size">16sp</dimen>
+    <dimen name="app_jobs_company_size">14sp</dimen>
+    <dimen name="app_jobs_exp_size">14sp</dimen>
+    <dimen name="app_jobs_btn_text_size">14sp</dimen>
+    <dimen name="progress_text_size">18sp</dimen>
+    <dimen name="btn_text_zize">14sp</dimen>
+    <dimen name="alerts_count_text_size">11sp</dimen>
+    <dimen name="career_plus_lable_size">16sp</dimen>
+    <dimen name="leave_contact_details_msg_size">15sp</dimen>
+    <dimen name="career_plus_edit_field">14sp</dimen>
+    <dimen name="btn_submit_text_size">16sp</dimen>
+    <dimen name="carrer_plus_heading_t_size">16sp</dimen>
+    <dimen name="resume_service_tv_size">18sp</dimen>
+    <dimen name="resume_service_tv_size2">13sp</dimen>
+    <dimen name="resume_service_tv_size3">12sp</dimen>
+    <dimen name="resume_service_tv_size4">14sp</dimen>
+
+    <!-- Paddings -->
+    <dimen name="c_p_e_f_padding_top_bottom">10dp</dimen>
+    <dimen name="c_p_e_f_padding_left">8dp</dimen>
+    <dimen name="alert_flag_btn_margin_left">30dp</dimen>
+    <dimen name="loading_grid_paddig_bottom">10dp</dimen>
+    <dimen name="l_g_progress_text_padding_left">10dp</dimen>
+    <dimen name="l_g_progress_text_padding_right">10dp</dimen>
+    <dimen name="sugg_bottom_layout_padding_top">5dp</dimen>
+    <dimen name="apply_to_all_btn_padding">5dp</dimen>
+    <dimen name="applied_jobs_btn_padding_right">10dp</dimen>
+    <dimen name="career_plus_form_padding_left_right">20dp</dimen>
+    <dimen name="career_plus_form_margin_top">20dp</dimen>
+    <dimen name="btn_submitpadding_top_btm">9dp</dimen>
+    <dimen name="carrer_plus_heading_padding">5dp</dimen>
+    <dimen name="carrer_plus_data_padding_left_right">5dp</dimen>
+    <dimen name="share_head_padding_left_right">5dp</dimen>
+    <dimen name="click_to_call_padding_left_right">10dp</dimen>
+    <dimen name="career_plus_view_padding_top_btm">10dp</dimen>
+    <dimen name="resume_service_tv_padding">5dp</dimen>
+    <dimen name="resume_service_tv_padding_left_right">5dp</dimen>
+
+    <!-- Margins -->
+
+    <dimen name="applied_jobs_tick_margin_right">8dp</dimen>
+    <dimen name="tab_top_margin">10dp</dimen>
+    <dimen name="tab_marging_left_right">10dp</dimen>
+    <dimen name="app_jobs_item_margin_left">5dp</dimen>
+    <dimen name="app_jobs_item_margin_right">5dp</dimen>
+    <dimen name="applied_jobs_btn_margin_left">5dp</dimen>
+    <dimen name="applied_jobs_btn_margin_right">5dp</dimen>
+    <dimen name="applied_jobs_grid_view_margin_bottom">10dp</dimen>
+    <dimen name="applied_jobs_grid_view_margin_left">5dp</dimen>
+    <dimen name="applied_jobs_grid_view_margin_right">5dp</dimen>
+    <dimen name="grid_view_margin_right">5dp</dimen>
+    <dimen name="grid_view_vertical_spacing">10dp</dimen>
+    <dimen name="sugg_bottom_layout_marging_left_right">10dp</dimen>
+    <dimen name="applied_jobs_btn_margin_bottom">1dp</dimen>
+    <dimen name="apply_job_marginleft_right">5dp</dimen>
+    <dimen name="apply_job_padding_left_right">15dp</dimen>
+    <dimen name="career_plus_edit_field_margin_top">15dp</dimen>
+    <dimen name="career_plus_edit_field_margin_top2">5dp</dimen>
+    <dimen name="btn_submit_margin_top">30dp</dimen>
+    <dimen name="btn_submit_margin_left_right">10dp</dimen>
+    <dimen name="resume_service_comp_adding_left_rght">10dp</dimen>
+    <dimen name="resume_service_comp_adding_left_rght2">10dp</dimen>
+    <dimen name="resume_service_divider_margin_top">5dp</dimen>
+    <dimen name="resume_service_divider_margin_bottom">2dp</dimen>
+    <dimen name="four_dip">4dp</dimen>
+
+    <dimen name="five_dip">5dp</dimen>
+    <dimen name="ten_dip">10dp</dimen>
+    <dimen name="ten_sp">10sp</dimen>
+    <dimen name="fifteen_dip">15dp</dimen>
+    <dimen name="fifteen2_dip">15dp</dimen>
+    <dimen name="two_dip">2dp</dimen>
+    <dimen name="one_dip">1dp</dimen>
+    <dimen name="thirty_dip">30dp</dimen>
+    <dimen name="six_dip">6dp</dimen>
+    <dimen name="eight_dip">8dp</dimen>
+    <dimen name="three_dip">3dp</dimen>
+    <dimen name="thirteen_dip">13dp</dimen>
+    <dimen name="twenty_dip">20dp</dimen>
+    <dimen name="sixty_five_dip">65dp</dimen>
+    <dimen name="fourty_dip">40dp</dimen>
+    <dimen name="eighty_dip">80dp</dimen>
+    <dimen name="thirty_2_dip">32dp</dimen>
+    <dimen name="seventy_five_dip">75dp</dimen>
+    <dimen name="thirty_5_dip">35dp</dimen>
+    <dimen name="twenty_5_dip">25dp</dimen>
+    <dimen name="fourty_8_dip">48dp</dimen>
+    <dimen name="twelve_dip">12dp</dimen>
+    <dimen name="one_30_dip">130dp</dimen>
+    <dimen name="one_10_dip">110dp</dimen>
+    <dimen name="one_100_dip">100dp</dimen>
+    <dimen name="one_50_dip">150dp</dimen>
+    <dimen name="one_35_dip">135dp</dimen>
+    <dimen name="fifty_dip">50dp</dimen>
+    <dimen name="eighty_5_dip">85dp</dimen>
+    <dimen name="twenty_3_dip">23dp</dimen>
+    <dimen name="twenty_4_dip">24dp</dimen>
+    <dimen name="nineteen_dip">19dp</dimen>
+    <dimen name="one_55_dip">155dp</dimen>
+    <dimen name="ninety_dip">90dp</dimen>
+    <dimen name="fifty_5_dip">55dp</dimen>
+    <dimen name="nine_dip">9dp</dimen>
+    <dimen name="seven_dip">7dp</dimen>
+    <dimen name="one_40_dip">140dp</dimen>
+    <dimen name="ninety_4_dip">94dp</dimen>
+    <dimen name="three_hundred_dip">300dp</dimen>
+    <dimen name="three_hundred_fifty_dip">350dp</dimen>
+
+    <dimen name="fivee_dip">2dp</dimen>
+    <dimen name="seventeen_sp">17sp</dimen>
+    <dimen name="eighteen_sp">18sp</dimen>
+    <dimen name="twelve_sp">12sp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="fourteen2_sp">10sp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="thirteen_sp">13sp</dimen>
+    <dimen name="fifteen_sp">15sp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="four_hundred_dip">400dp</dimen>
+
+
+    <dimen name="sp_ten">10sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>
