@@ -34,7 +34,7 @@ import java.util.ArrayList;
 public class MainActivityFragment extends Fragment implements View.OnClickListener,View.OnFocusChangeListener {
     private ArrayList<ImageEntry> mSelectedImages;
     AutoCompleteTextView adtitle;
-    EditText locationText,description,name,phone,price,email;
+    EditText category, locationText,description,name,phone,price,email;
     ImageView camera;
     LinearLayout submit;
     LayoutInflater inflator;
@@ -71,8 +71,13 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
         locationText.setText(location);
         locationText.setOnFocusChangeListener(this);
         locationText.setTag(0);
+        category=(EditText)view.findViewById(R.id.category);
+        category.setOnClickListener(this);
+        category.setOnFocusChangeListener(this);
+        category.setTag(0);
         description=(EditText)view.findViewById(R.id.description);
         description.setOnClickListener(this);
+
         name=(EditText)view.findViewById(R.id.name);
         name.setOnClickListener(this);
 
@@ -95,22 +100,24 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
     public void onFocusChange(View v, boolean hasFocus) {
         if (hasFocus) {
             showSpinner(v.getId());
-            //OlxCommon.hideKeyboard(getActivity());
+            OlxCommon.hideKeyboard(getActivity());
         }
     }
     @Override
     public void onClick(View v) {
 switch (v.getId())
 {
+
     case R.id.camera:
 
         pickImages();
 
         break;
 
+
     case R.id.submit_layout:
 
-        Toast.makeText(getActivity(),"Thanks",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),"Thanks for submitting",Toast.LENGTH_SHORT).show();
         break;
 }
     }
@@ -126,6 +133,8 @@ switch (v.getId())
     }
 
 
+
+
     private void showSpinner(int id) {
         try {
             switch (id) {
@@ -135,6 +144,12 @@ switch (v.getId())
                             "Choose Location", locationText,
                             OlxCommon.CITY_LIST_EDIT, getActivity());
 
+                    break;
+                case R.id.category:
+
+                    OlxCommon.showSpinnerDialogCustom(
+                            "Choose Category", category,
+                            OlxCommon.CAT_LIST, getActivity());
                     break;
             }
         } catch (Exception e) {

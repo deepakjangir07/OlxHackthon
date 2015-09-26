@@ -39,6 +39,7 @@
             android:layout_marginRight="@dimen/ten_dip"
             android:gravity="left|center_vertical"
             android:hint="Choose Category"
+            android:editable="false"
             android:textColorHint="#999999"
             android:imeOptions="actionNext"
             android:paddingBottom="@dimen/twenty_dip"

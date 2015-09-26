@@ -35,6 +35,8 @@ public class OlxCommon {
 
     private static boolean[] itemsChecked;
 
+    public static String[] CAT_LIST=new String[]{"#Mobile","Windows","Nokia","Iphone","Blackberry","Android","#Cars","Fiat","Honda","Maruti","Hyundai","Volkswagon","Skoda","#Electonics","Air Conditioner","TV","Refrigrator","Camera","Washing Machine"};
+
 
     public static void showSpinnerDialogCustom(String title,
                                                final TextView tView, final String[] list, Activity macActivity) {
